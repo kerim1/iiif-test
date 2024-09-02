@@ -10,22 +10,6 @@
     "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "logo": [
-    {
-      "id": "https://access.ecodices.nl/iiif/image/logo/full/max/0/default.png",
-      "type": "Image",
-      "format": "image/png",
-      "width": 800,
-      "height": 800,
-      "service": [
-        {
-          "@id": "https://access.ecodices.nl/iiif/image/logo",
-          "@type": "ImageService2",
-          "profile": "http://iiif.io/api/image/2/level2.json"
-        }
-      ]
-    }
-  ],
   "requiredStatement": {
     "label": {
       "en": [
@@ -236,29 +220,7 @@
       }
     }
   ],
-  "rights": "https://creativecommons.org/licences/by/4.0/",
-  "homepage": [
-    {
-      "id": "https://db.ecodices.nl/detail/6545/overview",
-      "label": {
-        "en": [
-          "Homepage"
-        ]
-      }
-    }
-  ],
-  "seeAlso": [
-    {
-      "id": "https://ecodices.nl",
-      "format": "application/tei+xml",
-      "profile": "http://www.tei-c.org/ns/1.0",
-      "label": {
-        "en": [
-          "TEI record"
-        ]
-      }
-    }
-  ],
+  "rights": "http://creativecommons.org/licences/by/4.0/",
   "items": [
     {
       "id": "https://access.ecodices.nl/iiif/presentation/MMW_10_A_12/canvas/1",
